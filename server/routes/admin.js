@@ -199,7 +199,7 @@ router.put('/edit-post/:id', authMiddleware, async (req, res) => {
 
 });
 
-
+// uncomment thsi section i fyou want ot get connected with admin and password 
 // router.post('/admin', async (req, res) => {
 //   try {
 //     const { username, password } = req.body;
