@@ -1,3 +1,4 @@
+// dotenv is sued to extract the requirements frmo teh .env file
 require('dotenv').config();
 
 const express = require('express');
