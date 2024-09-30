@@ -21,7 +21,6 @@ router.get('', async (req, res) => {
     .limit(perPage)
     .exec();
 
-    // Count is deprecated - please use countDocuments
     // const count = await Post.count();
     const count = await Post.countDocuments({});
     const nextPage = parseInt(page) + 1;
@@ -139,6 +138,8 @@ router.get('/contact', (req, res) => {
   });
 });
 
+
+//just inserting some data so it does not look empty at the beggining !
 function insertPostData() {
   Post.insertMany([
     {
