@@ -140,6 +140,8 @@ router.get('/contact', (req, res) => {
 
 
 //just inserting some data so it does not look empty at the beggining !
+
+/*
 function insertPostData() {
   Post.insertMany([
     {
@@ -185,7 +187,8 @@ function insertPostData() {
   ]);
 }
 
-// insertPostData();
+ insertPostData();
+*/
 
 
 module.exports = router;
